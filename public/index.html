@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Silder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div id="container">
+       <img src="images/1.jpg" alt="0" class="slides w3-animate-fading">
+        <img src="images/2.jpg" alt="1" class="slides w3-animate-fading" >
+        <img src="images/3.jpg" alt="2" class="slides w3-animate-fading">
+        <img src="images/4.jpg" alt="3" class="slides w3-animate-fading" >
+        <!--<img src="images/5.jpg" alt="4" class="slides">
+        <img src="images/6.jpg" alt="5" class="slides"  >
+        <img src="images/7.jpg" alt="6" class="slides" >-->
+
+   <button onclick="back();" class="prev">&#10094;</button>
+    <button onclick="next();" class="next">&#10095;</button>
+    </div>
+
+    <div style="text-align:center">
+  <span class="dot" onclick="showImage(0)"></span> 
+  <span class="dot" onclick="showImage(1)"></span> 
+  <span class="dot" onclick="showImage(2)"></span> 
+  <span class="dot" onclick="showImage(3)"></span> 
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
